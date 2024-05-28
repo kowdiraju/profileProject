@@ -1,0 +1,58 @@
+.cardPTage{
+    color: #939ba2;
+}
+.row{
+    padding: 0;
+}
+.card{
+    height: 800px;
+}
+
+ul {list-style-type: none;}
+
+.industryLeaders{
+    margin-top: 150px;
+    color: #939ba2;
+}
+.btn{
+    border: 1px solid black;
+    border-radius: 50px;
+    transition: transform 0.2s ease;
+}
+.btn:hover{
+    transform: translateY(-3px);
+}
+
+.btn2{
+    border: 1px solid red;
+    border-radius: 50px;
+    color: red;
+    transition: transform 0.2s ease;
+}
+.btn2:hover{
+    transform: translateY(-3px);
+}
+
+img{
+    height: 25px;
+    padding-right: 15px;
+}
+.img2{
+    height: 15px;
+    padding-right: 15px;
+}
+.Gotologin:hover{
+    text-decoration: underline 2px !important;
+    
+}
+
+.signUpBtn{
+    transition: 0.2s ease;
+    color: white;
+}
+.signUpBtn:hover{
+    transform: translateY(-3px);
+}
+.card-hover:hover {
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15);
+}

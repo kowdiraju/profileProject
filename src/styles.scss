@@ -1,1 +1,104 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+p{
+    margin: 0;
+}
+a:hover {
+    color: #0d6efd;
+
+}
+.bell {
+    position: relative !important; 
+}
+
+.bell:hover .badge {
+    transform: translateY(-1px) !important; 
+    transition: transform 0.3s ease !important; 
+}
+
+.badge {
+    transition: transform 0.3s ease !important; 
+}
+
+ul {
+    align-items: center;
+    margin: 0 !important;
+}
+
+.bodyWrapper {
+    transition: margin-left 0.5s ease;
+}
+
+.shift-right {
+    margin-left: 250px; 
+}
+
+.offcanvas {
+    transition: transform 0.5s ease;
+    width: 250px !important;
+    background-color: #222e3c;
+    
+}
+
+.offcanvas-items{
+    color: #e9ecef;
+    height: 100%;
+    overflow-y: auto;
+    h5 a{
+        color: #f8f9fa !important;  
+    }
+    p{
+        color: #ced4da;;
+    }
+    li a{
+        color: rgba(233, 236, 239, .5);
+        
+    }
+    li a:hover{
+        color: rgba(233, 236, 239, 0.805);
+    }
+
+}
+
+.offcanvas-items::-webkit-scrollbar {
+    width: 8px;
+}
+
+.offcanvas-items::-webkit-scrollbar-track {
+    background-color: #222e3c;
+}
+
+.offcanvas-items::-webkit-scrollbar-thumb {
+    background-color: #888888a3;
+    border-radius: 4px;
+}
+.main{
+    height: 100%;
+    background-color: #f5f7fb;
+}
+// .card{
+//     background-color: #2b3947;
+//     color: white;
+// }
+// hr{
+// margin: 0;
+// }
+.chat-dropdown{
+    background-color:#f5f7fb ;
+}
+.chat-dropdown:hover{
+    background-color: #f5f7fb6f;
+}
+.footer li:hover{
+    text-decoration: underline;
+}
